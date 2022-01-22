@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
 }
 
 header {
@@ -7,7 +8,7 @@ header {
 }
 
 main ul {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -17,7 +18,7 @@ main li {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     overflow: hidden;
-    width: 80%;
+    width: 500px;
 }
 
 main li img {
@@ -30,21 +31,20 @@ main li img {
     padding: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .actions {
-    align-self: flex-end;
+    text-align: right;
 }
 
 .actions a {
     text-decoration: none;
-    color: rgb(117, 239, 243);
-    padding: 8px;
+    padding: 6px;
+    color: rgb(22, 211, 228);
     border-radius: 8px;
 }
 
 .actions a:hover {
-    color: whitesmoke;
-    background-color: rgb(117, 239, 243);
+    background-color: rgb(235, 253, 255);
 }
